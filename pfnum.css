@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+#HOME{
+    background-color: whitesmoke;
+    border: 5px solid;
+    color: whitesmoke;
+    padding: 12px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    background-color:blue ;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+#HOME:active {
+    transform: scale(1.1);
+    background-color: #0056b3;
+    transform: scale(0.95);
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
